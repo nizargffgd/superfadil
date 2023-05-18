@@ -1,0 +1,1063 @@
+@import url('https://fonts.cdnfonts.com/css/scada');
+@import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+@import url('https://fonts.googleapis.com/css?family=Cormorant');
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('path/to/greycliff-cf-regular.woff2');
+@import url('path/to/greycliff-cf-regular.woff');
+/*
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #FFFFFF;
+    width: 7px ;
+    
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #606060;
+    border-radius: 12px;
+    
+}*/
+*{
+padding: 0;
+margin: 0;
+}
+@media (min-width: 992px){
+  .whatsapp{
+    position: fixed; 
+    bottom: 35px;
+     right: 35px; 
+    z-index: 1;
+     height: 60px; 
+    z-index: 2;
+    border-radius: 50%;
+  }
+  .treee{
+    margin: 0;
+  }
+  .onee{
+    margin: 0 0 0 0px;
+  }
+  .pdd{
+    padding: 10px;
+  }
+  .inp{
+    width: 150px;
+  }
+  /*madal lllllll*/
+  .modal-dialog{
+    width: 300px;
+    margin: 0px;
+    overflow-y: scroll;
+  }
+  .modal-content{
+    border: none;
+    border-radius: 0px;
+  }
+  .hoverr:hover{
+    background-color: #DD3333;
+  }
+  .zer .hoverr:hover a {
+    color: rgb(255, 255, 255);
+  }
+
+  /*nihayat madal*/
+
+  .ec{
+    margin: 5px 10px;
+  }
+  .pad{
+    padding: 2px 5px 2px 5px;
+    margin: 15px 0 !important;
+  }
+  .slidenum2{
+    margin: 90px 25px 25px 25px;
+  }
+
+
+ 
+  /* card seut up game*/
+
+  .addto:hover{
+    position: relative;
+    transform: translatey(-20px) ;
+    
+  }
+  
+  .line1 {
+    height: 20px;
+    margin: 0 1px;
+  }
+  .noline1{
+    height: 20px;
+    margin: 0 2px;
+  
+  }
+  
+  .addto{
+    justify-content:space-between;
+    transition: 0.5s ease;
+    
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.23);
+    height: 100%; display: flex; 
+    flex-direction: column; 
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.089) !important;   
+    padding: 7px 7px 10px 7px !important;
+    position: relative;
+  
+  }
+  
+  .line{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px ; 
+    text-decoration: line-through; 
+    opacity: 0.6;
+    font-weight: 800;
+    font-family: 'Eczar', serif !important;
+  }
+  .noline{
+    display: flex; 
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px; 
+    font-weight: 900; 
+    font-family: 'Archivo Black', sans-serif ; 
+    letter-spacing: 0px;
+    color: #DD3333;
+    height: 24px;
+  } 
+  
+  .addto:hover .btnadd{  
+    display: flex;
+    animation-name: btnee;
+    animation-duration: 0.5s;
+  }
+  @keyframes btnee {
+    0%{
+      opacity: 0;
+      top: 88%;
+    }
+    100%{
+      opacity: 1;
+      top: 98%;
+    }
+  }  
+  
+  
+  .title{
+  border-top: #0000001a 1px solid ;
+  border-bottom: #0000001a 1px solid ;
+  font-size: 16px;
+  padding: 2px 0  !important;
+  margin: 0px 15px !important;
+  font-family: 'scada';
+  padding: 5px 0;
+  justify-content:center;
+  align-items: center;
+  margin: 5px 15px; 
+  flex-wrap: wrap; 
+  font-weight: 750;
+  }
+  .prix{
+  font-size: 16px;
+  flex-direction:row;
+  
+  
+  }
+  .panier{
+  font-size: 14px;
+  font-family: 'scada';
+  }
+  .btnadd{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 98%;
+    justify-content:center;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 8px 8px#00000013;
+  }
+  .btncart{
+  width: 100%;
+  margin: 5px 5px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50px;
+  background-color: #DD3333;
+  border: none;
+  color: white
+  }
+  .btncart:hover{
+  background-color: #C32A2A;
+  
+  
+  }
+  /* nihayat card seut up game*/
+
+}
+
+@media (max-width: 992px){
+  .slidenum2{
+    margin: 90px 25px 25px 25px;
+  }
+  .whatsapp{
+    position: fixed; 
+    bottom: 35px; 
+    right: 35px; 
+    z-index: 1;
+    height: 60px; 
+    z-index: 2;
+    border-radius: 50%;
+  }
+  .treee{
+    margin: 0;
+  }
+  .onee{
+    margin: 0 0 0 0px;
+  }
+  .pdd{
+    padding: 10px;
+  }
+  .inp {
+    width: 150px;
+  }
+  .navbar{
+    padding: 10px 0; 
+  }
+
+  .ec{
+    margin: 5px 10px;
+  }
+  .pad{
+    padding: 2px 5px 2px 5px;
+    margin: 15px 0 !important;
+  }
+
+  /* card seut up game*/
+
+  .addto:hover{
+    position: relative;
+    transform: translatey(-20px) ;
+    
+  }
+  
+  .line1 {
+    height: 20px;
+    margin: 0 1px;
+  }
+  .noline1{
+    height: 20px;
+    margin: 0 2px;
+  
+  }
+  
+  .addto{
+    justify-content:space-between;
+    transition: 0.5s ease;
+    
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.23);
+    height: 100%; display: flex; 
+    flex-direction: column; 
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.089) !important;   
+    padding: 7px 7px 10px 7px !important;
+    position: relative;
+  
+  }
+  
+  .line{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px ; 
+    text-decoration: line-through; 
+    opacity: 0.6;
+    font-family: 'Eczar', serif !important;
+  }
+  .noline{
+    display: flex; 
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px; 
+    font-weight: 900; 
+    font-family: 'Archivo Black', sans-serif ; 
+    letter-spacing: 0px;
+    color: #DD3333;
+    height: 24px;
+  } 
+  
+  .addto:hover .btnadd{  
+    display: flex;
+    animation-name: btnee;
+    animation-duration: 0.5s;
+  }
+  @keyframes btnee {
+    0%{
+      opacity: 0;
+      top: 88%;
+    }
+    100%{
+      opacity: 1;
+      top: 98%;
+    }
+  }  
+  
+  
+  .title{
+  border-top: #0000001a 1px solid ;
+  border-bottom: #0000001a 1px solid ;
+  font-size: 16px;
+  padding: 2px 0  !important;
+  margin: 0px 15px !important;
+  font-family: 'scada';
+  padding: 5px 0;
+  justify-content:center;
+  align-items: center;
+  margin: 5px 15px; 
+  flex-wrap: wrap; 
+  font-weight: 750;
+  }
+  .prix{
+  font-size: 16px;
+  flex-direction: row;
+  
+  font-family: 'scada' !important;
+  }
+  .panier{
+  font-size: 14px;
+  font-family: 'scada';
+  }
+  .btnadd{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 98%;
+    justify-content:center;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 8px 8px#00000013;
+  }
+  .btncart{
+  width: 100%;
+  margin: 5px 5px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50px;
+  background-color: #DD3333;
+  border: none;
+  color: white
+  }
+  .btncart:hover{
+  background-color: #C32A2A;
+  
+  
+  }
+  /* nihayat card seut up game*/
+
+}
+
+
+/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+
+@media (max-width: 880px){
+  .slidenum2{
+    margin: 150px 0px 0px 0px;
+  }
+
+  .whatsapp{
+    position: fixed; 
+    bottom: 30px; 
+    right: 30px; 
+    z-index: 1;
+    height: 60px; 
+    z-index: 2;
+    border-radius: 50%;
+  }
+ 
+
+  .onee{
+    order: 1;
+    margin: 0 0 0 0px;
+  }
+  .twoo{
+    order: 3;
+    width: 100%;
+    margin: 5px 0px 12px 0px;
+  }
+  .treee{
+    order: 2;
+    margin: 0 0px 0 0px;
+  }
+ .inp{
+  width: 100%;
+ }
+ .pdd{
+  padding: 10px;
+}
+.twoo{
+  box-shadow: 0 0px 10px  rgba(0, 0, 0, 0.103);
+}
+
+/* card seut up game*/
+.ec{
+  margin: 0 !important;
+}
+.pad{
+  padding: 2px 5px 2px 5px;
+  margin: 20px 0px !important;
+}
+.addto:hover{
+  position: relative;
+  transform: translatey(-10px) ;
+  
+}
+
+
+  
+
+.noline1{
+  height: 20px;
+  margin: 0 2px;
+
+}
+
+.addto{
+  justify-content:space-between;
+  transition: 0.5s ease;
+  
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.23);
+  height: 100%; display: flex; 
+  flex-direction: column; 
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.089) !important;   
+  padding: 7px 7px 10px 7px !important;
+  position: relative;
+
+}
+
+.line{
+  display: flex;
+  justify-content:center; 
+  flex-wrap: wrap; 
+  margin: 0px 0px ; 
+  text-decoration: line-through; 
+  opacity: 0.6;
+  font-family: 'Eczar', serif !important;
+  
+}
+.noline{
+  display: flex; 
+  justify-content:center; 
+  flex-wrap: wrap; 
+  margin: 0px 0px; 
+  font-weight: 900; 
+  font-family: 'Archivo Black', sans-serif ; 
+  letter-spacing: 0px;
+  color: #DD3333;
+  height: 24px;
+} 
+
+.addto:hover .btnadd{  
+  display: flex;
+  animation-name: btnee;
+  animation-duration: 0.5s;
+}
+@keyframes btnee {
+  0%{
+    opacity: 0;
+    top: 88%;
+  }
+  100%{
+    opacity: 1;
+    top: 98%;
+  }
+}  
+
+
+.title{
+border-top: #0000001a 1px solid ;
+border-bottom: #0000001a 1px solid ;
+font-size: 16px;
+padding: 2px 0  !important;
+margin: 0px 15px !important;
+font-family: 'scada';
+padding: 5px 0;
+justify-content:center;
+align-items: center;
+margin: 5px 15px; 
+flex-wrap: wrap; 
+font-weight: 750;
+}
+.prix{
+font-size: 16px;
+flex-direction: column;
+
+font-family: 'scada' !important;
+}
+.panier{
+font-size: 14px;
+font-family: 'scada';
+}
+.btnadd{
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 98%;
+  justify-content:center;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 12px 8px#0000002d;
+}
+.btncart{
+width: 100%;
+margin: 5px 5px;
+padding: 5px 8px 5px 8px;
+border-radius: 50px;
+background-color: #DD3333;
+border: none;
+color: white
+}
+.btncart:hover{
+background-color: #C32A2A;
+
+
+}
+/* nihayat card seut up game*/
+ 
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+
+  .whatsapp{
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1;
+    height: 60px; 
+    z-index: 2;
+    border-radius: 50%;
+  }
+
+  .treee{
+    margin:0px
+    
+  }
+  .onee{
+    margin:0;
+
+  }
+  .twoo{
+    margin: 5px 0px 12px 0px;
+
+  }
+  .pdd{
+    padding: 10px;;
+  }
+
+ 
+  /* card seut up game*/
+  .ec{
+    margin: 0 !important;
+  }
+  .pad{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0 !important;
+  }
+  
+  .noline1{
+    height: 20px;
+    margin: 0 2px;
+
+  }
+  .addto:hover .btnadd{  
+    animation-name: none;
+    
+    
+    
+  }
+
+  .addto{
+    justify-content:space-between;
+    
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.23);
+    height: 100%; display: flex; 
+    flex-direction: column; 
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.089) !important;   
+    padding: 7px 7px 10px 7px !important;
+    position: relative;
+
+  }
+
+  .line{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px ; 
+    text-decoration: line-through; 
+    opacity: 0.6;
+    font-family: 'Eczar', serif !important;
+  }
+  .noline{
+    display: flex; 
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px; 
+    font-weight: 900; 
+    font-family: 'Archivo Black', sans-serif ; 
+    letter-spacing: 0px;
+    color: #DD3333;
+    height: 24px;
+  } 
+.addto:hover{
+  position: relative;
+  animation-name: mob;
+  animation-duration: 1s ;
+  transform: translateX(0);
+ 
+  
+  
+}
+@keyframes mob {
+  0%{
+    transform: translatey(0px);
+    
+  }
+  50%{
+    transform: translatey(-10px);
+
+  }
+  100%{
+    transform: translatey(0px);
+
+
+  }
+  
+}
+.title{
+  border-top: #0000001a 1px solid ;
+  border-bottom: #0000001a 1px solid ;
+  font-size: 16px;
+  padding: 2px 0  !important;
+  margin: 0px 15px !important;
+  font-family: 'scada';
+  padding: 5px 0;
+  justify-content:center;
+  align-items: center;
+  margin: 5px 15px; 
+  flex-wrap: wrap; 
+  font-weight: 750;
+}
+.prix{
+  font-size: 16px;
+  flex-direction: column;
+  
+  font-family: 'scada' !important;
+}
+.panier{
+  font-size: 14px;
+  font-family: 'scada';
+}
+.btnadd{
+  display: flex;
+  left: 0;
+  top: 0;
+  position: relative;
+  justify-content:center;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: none;
+
+}
+.btncart{
+  width: 100%;
+  margin: 0;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50px;
+  background-color: #DD3333;
+  border: none;
+  color: white
+}
+.btncart:hover{
+  background-color: #C32A2A;
+ 
+
+}
+/* nihayat card seut up game*/
+
+}
+ 
+  @media (max-width: 475px) {
+    .slidenum2{
+      margin: 130px 0px 0px 0px;
+    }
+  
+    .container-fluid{
+      padding: 0 0px;
+    }
+   
+    .treee{
+      margin: 0px 0px 0px 0px
+      
+    }
+    .onee{
+      margin: 0 0 0 0px;
+  
+    }
+    .twoo{
+      margin: 5px 0px 10px 0px;
+  
+    }
+    .pdd{
+      padding: 5px;
+    }
+  .ec{
+    margin: 0 !important;
+    
+  }
+ 
+ 
+  /* card seut up game*/
+  .pad{
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0 !important;
+  }
+
+  .noline1{
+    height: 20px;
+    margin: 0 2px;
+
+  }
+
+  .addto{
+    justify-content:space-between;
+    transition: 1s ease;
+    
+    
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.23);
+    height: 100%; display: flex; 
+    flex-direction: column; 
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.089) !important;   
+    padding: 7px 7px 10px 7px !important;
+    position: relative;
+
+  }
+ 
+
+  .line{
+    display: flex;
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px ; 
+    text-decoration: line-through; 
+    opacity: 0.6;
+    font-family: 'Eczar', serif !important;
+  }
+  .noline{
+    display: flex; 
+    justify-content:center; 
+    flex-wrap: wrap; 
+    margin: 0px 0px; 
+    font-weight: 900; 
+    font-family: 'Archivo Black', sans-serif ; 
+    letter-spacing: 0px;
+    color: #DD3333;
+
+  } 
+.addto:hover{
+  position: relative;
+  animation-name: mob ;
+  animation-duration: 1s ease-in-out ;
+  transform: translateX(0);
+  
+  
+  
+}
+@keyframes mob {
+  0%{
+    transform: translatey(0px);
+    
+  }
+  50%{
+    transform: translatey(-5px);
+
+  }
+  100%{
+    transform: translatey(0px);
+
+
+  }
+  
+}
+.title{
+  border-top: #0000001a 1px solid ;
+  border-bottom: #0000001a 1px solid ;
+  font-size: 16px;
+  padding: 2px 0  !important;
+  margin: 0px 15px !important;
+  font-family: 'scada';
+  padding: 5px 0;
+  justify-content:center;
+  align-items: center;
+  margin: 5px 15px; 
+  flex-wrap: wrap; 
+  font-weight: 750;
+}
+.prix{
+  font-size: 14px;
+  
+  font-family: 'scada' !important;
+}
+.panier{
+  font-size: 14px;
+  font-family: 'scada';
+}
+.btnadd{
+  display: flex;
+  left: 0;
+  top: 0;
+  position: relative;
+  justify-content:center;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: none;
+
+}
+.btncart{
+  width: 100%;
+  margin: 0;
+  padding: 5px 8px 5px 8px;
+  border-radius: 50px;
+  background-color: #DD3333;
+  border: none;
+  color: white
+}
+.btncart:hover{
+  background-color: #C32A2A;
+ 
+
+}
+/* nihayat card seut up game*/
+}
+
+.modal.fade .modal-dialog {
+  transform: translateX(-100%);
+  transition: 0.5s ;
+}
+
+.modal.fade.show .modal-dialog {
+  transform: translateX(0);
+
+  opacity: 1;
+}
+
+
+.inp{
+  
+  padding: 5px;
+  border: none; 
+  outline: none; 
+  background-color:white; 
+  border-radius: 25px;
+  margin: 4px 8px 4px 8px;
+  
+  
+}
+
+.sro{
+  width: 100%;
+
+}
+
+.bttn{
+  border: none;
+  align-items:center;
+  justify-content:center;
+  border-radius: 50px; 
+  margin: 4px 5px 4px 0;
+  background-color: #DD3333;
+
+}
+.fontcolor{
+  text-decoration:wavy;
+  
+
+}
+.a{
+  border: 1px solid black;
+  }
+
+
+.bttn:hover{
+  background-color: #C32A2A;
+  
+
+}
+.twoo:hover{
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.233);
+}
+
+
+.swiper-slide img{
+  height: auto;
+  width: 100%;
+
+} 
+.inp::placeholder{
+  opacity: 0.5;
+}
+.inp:focus::placeholder{
+  opacity: 1;
+}
+
+.next2::after,
+.prev2::after {
+color: rgb(255, 255, 255);
+
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: #DD3333;
+font-size: 20px !important;
+align-items:center;
+justify-content:center;
+
+display: flex;
+flex: 0 0 auto;
+
+}
+
+.prev2::after{
+  margin-left:5px ;
+}
+.next2::after{
+
+  margin-right:5px ;
+  
+}
+
+
+
+
+.promo{
+ 
+  
+  color: rgb(17, 17, 17); 
+  font-size: 32px; 
+ 
+  
+  font-weight: 900;
+  padding: 15px;
+  border-top-right-radius:5px ;
+  border-top-left-radius:5px;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+  padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+  color:#ffffff;
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+#footer ul.quick-links li{
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+  padding: 3px 0;
+  margin-left:5px;
+  font-weight:700;
+}
+#footer ul.quick-links li a i{
+  margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+
+
+
